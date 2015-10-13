@@ -46,8 +46,8 @@ public class MainActivity extends AppCompatActivity {
         TextView res = (TextView) findViewById(R.id.textView);
         TextView error = (TextView) findViewById(R.id.textView2);
         RadioButton sum = (RadioButton) findViewById(R.id.radioButton);
-        RadioButton mul = (RadioButton) findViewById(R.id.radioButton2);
-        RadioButton sub = (RadioButton) findViewById(R.id.radioButton3);
+        RadioButton sub = (RadioButton) findViewById(R.id.radioButton2);
+        RadioButton mul = (RadioButton) findViewById(R.id.radioButton3);
         float f = 0;
         if(sum.isChecked()){
             f = Float.valueOf(n1.getText().toString()) + Float.valueOf(n2.getText().toString());}
